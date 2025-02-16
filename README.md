@@ -1,1 +1,1 @@
-# kirill.khoruzhiy.github.io
+# kirill-khoruzhiy.github.io
