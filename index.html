@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirill Khoruzhiy – Эксперт по недвижимости</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+        .logo img {
+            height: 40px;
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        /* Главный блок */
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('LOGO_IMAGE_URL') no-repeat center;
+            background-size: contain;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Блок "Обо мне" */
+        .about {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+        .about h2 {
+            font-size: 28px;
+        }
+        .about p {
+            max-width: 700px;
+            margin: 10px auto;
+            line-height: 1.6;
+        }
+
+        /* Соцсети */
+        .socials {
+            text-align: center;
+            padding: 30px;
+            background-color: #000;
+            color: #fff;
+        }
+        .socials a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+        }
+        .socials a:hover {
+            text-decoration: underline;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+            .about h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo">
+            <img src="LOGO_IMAGE_URL" alt="Kirill Khoruzhiy">
+        </div>
+        <nav class="menu">
+            <a href="#about">Обо мне</a>
+            <a href="#socials">Связь</a>
+        </nav>
+    </header>
+
+    <!-- Главный блок -->
+    <section class="hero">
+        <h1>Kirill Khoruzhiy</h1>
+        <p>Аренда и продажа жилой и коммерческой недвижимости в Киеве</p>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <h2>Почему выбирают меня?</h2>
+        <p>Я обеспечу вам быстрый результат в аренде и продаже недвижимости, от подбора объектов до подписания договора. Гарантирую профессиональные переговоры и защиту ваших интересов.</p>
+    </section>
+
+    <!-- Соцсети -->
+    <section id="socials" class="socials">
+        <h2>Связаться со мной</h2>
+        <a href="https://www.instagram.com/kirill.khoruzhiy" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@kirill.khoruzhiy" target="_blank">TikTok</a>
+        <a href="https://t.me/RealtyKyiv" target="_blank">Telegram-канал</a>
+        <a href="https://t.me/kirill_khoruzhiy" target="_blank">Личный Telegram</a>
+    </section>
+
+</body>
+</html>
